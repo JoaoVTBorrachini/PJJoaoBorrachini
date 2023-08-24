@@ -16,4 +16,7 @@
 10- Dentro dos arquivos "AppUser" e "Psicologo", vamos criar suas caracteristicas como: nome, altura, raça...
 11- Criado vamos "puxar" eles para usar no "program" - using PJJoaoBorrachini.Data;
 						     using PJJoaoBorrachini.Models;
-12- E também configurar o serviço de indentificação de usuario, o login
+12- E também configurar o serviço de indentificação de usuario, o login.
+13- Feito vamos criar a Migration com os comandos dotnet tool install --global dotnet-ef
+						  dotnet-ef migrations add InitialCreate
+						  dotnet-ef database update	 
